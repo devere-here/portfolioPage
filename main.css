@@ -1,0 +1,226 @@
+body{
+    font-family: 'Helvetica', 'Arial', 'sans-serif';
+}
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+li{
+    float: right;
+    width: 8%;
+    height: 99%;
+    
+}
+li:hover{
+    background-color: rgba(255, 59, 63, 0.8);  
+}
+li a{
+    display: block;
+    
+}
+body{
+    font-family: sans-serif;
+}
+#header{
+    position: fixed;
+    height: 5%;
+    min-height: 50px;
+    width: 100%;
+    border: black 1px solid;
+    top: 0%;
+    left: 0%;
+    text-align: center;
+    line-height: 400%;
+    z-index: 2;
+    background-color: #EFEFEF; 
+    color: #404040;
+}
+#headerName{
+    float: left;
+    font-family: sans-serif;
+    font-size: 24px;
+    width: 250px;
+    height: 100%;
+    line-height: 220%;
+   
+}
+.headerbtn{
+    display: inline-block;
+    width: 8%;
+    height: 99%;
+    float: right;
+    margin-right: 2%;
+    font-size: 22px;
+    font-family: sans-serif;
+    line-height: 220%; 
+}
+.headerbtn > a{
+    text-decoration: none;
+    color: #404040;
+}
+#home{
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    min-height: 600px;
+    background-image: url("https://drive.google.com/uc?export=download&id=1URijZGby0fwHVquB36dzZVdZaKjzA1yY");
+    background-size: cover;
+}
+#introSentence{
+    color: #303030;
+    background-color: rgba(202, 235, 242, 0.7);
+    font-size: 50px;
+    width: 45%;
+    padding: 2%;
+    text-align: center;
+    margin-left: 3%;
+    position: relative;
+    top: 150px;
+    border-radius: 15px;
+    z-index: 1;   
+}
+#aboutMe{
+    width: 100%;
+    height: 70%;
+    min-height: 600px;
+    background-color: #CAEBF2;
+    color: #404040;
+    border-top: solid 3px #303030;  
+}
+.sectionTitle{
+    text-align: center;
+    margin-bottom: 50px;
+    padding-top: 35px;  
+}
+#myPicture{
+    border-radius: 100%;
+    height: 220px;
+    width: 220px;
+    margin: 0px 0px 0px 150px;
+    border: 3px solid #303030;
+    position: relative;
+    bottom: 28px;
+}
+#bio{
+    font-size: 22px;
+    width: 50%;
+    float: right;
+    margin-right: 10%;
+}
+#proficiencies{
+    width: 100%;
+    text-align: center;
+    margin-top: 5%;
+}
+#portfolio{
+    background-color: #FF3B3F;
+    color: white;
+    border-top: solid 3px #303030;
+}
+.project{
+    width: 100%;
+    height: 275px;
+    background-color: lightgray;
+    border-bottom: 1px solid black;
+}
+.imageContainer{
+    display: inline-block;
+    float: left;
+    height: 100%;
+    width: 50%;
+    background-color: #EFEFEF;
+}
+.projectPicture{
+    height: 75%;
+    width: 59%;
+    position: relative;
+    top: 9%;
+    left: 17%;
+    border: 10px solid #303030;
+}
+.info{
+    float: right;
+    height: 100%;
+    width: 50%;
+    background-color: #CAEBF2;
+    color: #505050;
+    text-align: center;
+    overflow: scroll;
+}
+.infoParagraph{
+    width: 90%;
+    margin: 0px auto 0px auto;
+}
+.info > h1{
+    margin-top: 7%;
+}
+.projectBtn{
+    background-color: #FF3B3F;
+    border: 1px solid #303030;
+    border-radius: 10px;
+    box-shadow: 0px 1px gray;
+    height: 50px;
+    width: 110px;
+    display: block;
+    margin: 15px auto 0px auto;
+}
+.projectBtn > a{
+    color: #EFEFEF;
+    position: relative;
+    left: -5px;
+    text-decoration: none;
+    font-size: 16px;
+    display: inline-block;
+    width: 110%;
+    height: 100%; 
+    border-radius: 10px;  
+    line-height: 290%;
+    vertical-align: bottom;  
+}
+.projectBtn:active{
+    transform: translateY(1px);
+    box-shadow: 0px 0px;
+}
+#contactMe{
+    width: 100%;
+    height: 50%;
+    max-height: 300px;
+    background-color: #A9A9A9;
+    color: white;
+    text-align: center;
+    border-top: solid 2px #303030;
+}
+.title{
+    margin: 0px 0px 20px 0px;
+    padding-top: 35px;
+}
+#contactList{
+    list-style-type: none;
+}
+#emailContact{
+    text-align: center;
+}
+#emailContact > i:hover{
+    color: white;
+}
+.fa{
+    font-size: 40px;
+    margin: 20px 25px 20px 25px; 
+}
+h3 > .fa{
+    font-size: 30px;
+    position: relative;
+    top: 3px;
+    left: 0px;
+}
+h3{
+    font-size: 25px;
+}
+.fa:hover{
+    color: red;
+}
+#contactMe > a{
+    color: white;
+}
