@@ -9,6 +9,7 @@
     <span id="headerName">Steven DeVere</span>
     <ul>
       <li class="headerbtn"><a href="#contactMe">Contact</a></li>
+      <li class="headerbtn"><a href="#blog">Blog</a></li>
       <li class="headerbtn"><a href="#portfolio">Portfolio</a></li>
       <li class="headerbtn"><a href="#aboutMe">About</a></li>
       <li class="headerbtn"><a href="#home">Home</a></li>
@@ -20,7 +21,7 @@
     <p id="introSentence">Hi, my name is Steven and I'm a freelance software developer.</p>
 </div>
   
-<div class="page" id="aboutMe">
+<div id="aboutMe">
     <h1 class="sectionTitle">About Me</h1>
     <img id="myPicture" src="https://drive.google.com/uc?export=download&id=1UEH4FTZW5KjLkBFUeOkyeh_oy5ZLaA57"/>
     <p id="bio">I'm a recent college grad with a background in Physics and Math. For the longest time I wanted to become a teacher, but as I became more exposed to computer science in college I became more enamored with software. When I graduated college I knew that I wanted to become a computer programmer. As a result, I spent months teaching myself web development and then attended the Fullstack Academy coding bootcamp where I learn more advanced programming concepts and got to work on large projects with other developers. I'm now working as a freelancer in New York.</p>
@@ -36,11 +37,25 @@
 
   <div class="project">
     <div class="imageContainer">
+      <a target="_blank" href="http://sbsf.herokuapp.com/"><img class="projectPicture" src="https://drive.google.com/uc?export=download&id=1IJ2DQ8XG17P_SFWB5SVnTHWf4x_8TJoY"/></a>
+    </div>
+    <div class="info">
+      <h1>SBSF Company Portal</h1>
+      <p class="infoParagraph">Side-by-Side Financial is a third party administration company that helps other companies manage their retirement plans. This portal is a PWA for employees of SBSF client companies so they can have access to all the forms they need to fill out as well information videos and articles about retirement planning.</p>
+      <h3>Uses: React, Firestore, Material-UI</h3>
+      <button class="projectBtn">
+        <a target="_blank" href="http://sbsf.herokuapp.com/">See Project</a>
+      </button>
+    </div>
+  </div>
+
+  <div class="project">
+    <div class="imageContainer">
       <a target="_blank" href="https://www.benevocent.com"><img class="projectPicture" src="https://drive.google.com/uc?export=download&id=1P4Kcu7V3DHizTortPx5Bgjjb1CV1LLbx"/></a>
     </div>
     <div class="info">
-      <h1>BenevoCent (Looks best on mobile)</h1>
-      <p class="infoParagraph">Charitable donation PWA that allows users to donate spare change to charities of their choice. A virtual garden grows as a visual representation of their charitableness</p>
+      <h1>BenevoCent</h1>
+      <p class="infoParagraph">Charitable donation PWA that allows users to donate spare change to charities of their choice. A virtual garden grows as a visual representation of their charitableness. (Looks best on mobile)</p>
       <h3>Uses: React, Firebase, Express, Node, Stripe, Plaid</h3>
       <button class="projectBtn">
         <a target="_blank" href="https://www.benevocent.com">See Project</a>
@@ -244,6 +259,47 @@
     </div>
   </div>
     
+</div>
+
+<div id="blog">
+  <h1 class="sectionTitle">Blog</h1>
+  <div id="articleCardContainer">
+    <a target="_blank" href="https://medium.com/@stevendeverehere/haiku-program-6afff33067fb">
+      <div class="articleCard">
+        <h2>Haiku Program</h2>
+        <img class="articleThumbNail" src="https://cdn-images-1.medium.com/max/800/0*fhYvvdODFNOJ2dTn." />
+        <button class="btnTitleOneLine">
+              Read Article
+        </button>
+      </div>
+    </a>
+    <a target="_blank" href="https://medium.com/@stevendeverehere/a-quick-introduction-to-quantum-computing-96ed6d485c4a">
+      <div class="articleCard">
+        <h2>Quick Introduction To Quantum Computing</h2>
+        <img class="articleThumbNail" src="https://cdn-images-1.medium.com/max/1600/0*F91RRIorAy-iBwlx." />
+        <button class="btnTitleTwoLines">
+            Read Article
+        </button>
+      </div>
+    </a>
+    <a target="_blank" href="https://medium.com/@stevendeverehere/two-programming-limericks-f6905a51e7d1">
+      <div class="articleCard">
+        <h2>Two Programming Limericks</h2>
+        <img class="articleThumbNail" 
+        src="https://cdn-images-1.medium.com/max/800/0*ynKpKyCbO-IVjcM4." />
+        <button class="btnTitleOneLine">
+            Read Article
+        </button>
+      </div>
+    </a>
+    <a target="_blank" href="https://medium.com/@stevendeverehere/tips-for-those-teaching-themselves-programming-ddee9cebe483">
+      <div class="articleCard">
+        <h2>Tips for Teaching Yourself Programming</h2>
+        <img class="articleThumbNail" src="https://cdn-images-1.medium.com/max/800/0*vwPxYjlc64OI2mtq." />
+        <button class="btnTitleTwoLines">Read Article</button>
+      </div>
+    </a>
+  </div>
 </div>
    
 <div id="contactMe">
