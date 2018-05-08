@@ -98,10 +98,18 @@ body{
     border-top: solid 3px #303030;
     
 }
+
+#aboutMe > .sectionTitle{
+    margin-bottom: 45px;
+}
 .sectionTitle{
     text-align: center;
-    margin-bottom: 50px;
+    padding-bottom: 40px;
+    /* margin-bottom: 50px; */
+    margin-top: 0px;
     padding-top: 35px;
+    background-color: #FF3B3F;
+    color: white;
     
 }
 #myPicture{
@@ -239,3 +247,38 @@ h3{
 }
 
 /* Blog Section */
+
+#blog{
+    background-color: #EFEFEF;
+}
+
+.articleCard{
+    height: 300px;
+    width: 400px;
+    background-color: #CAEBF2;
+    border: 1px solid black;
+    margin: 3vh 3vw;
+    border-radius: 10px;
+    color: black;
+}
+
+.articleCard > h2{
+    text-align: center;
+}
+.articleThumbNail{
+    height: 60%;
+    margin: 0 auto 0 auto;
+    position: relative;
+    left: 20%;
+    border: 1px solid black;
+    
+}
+
+.articleCard > button{
+    background-color: #FF3B3F;
+    border-radius: 5px;
+    border: black 1px solid;
+    display: block;
+    color: white;
+    margin: 0 auto 0 auto;
+}
