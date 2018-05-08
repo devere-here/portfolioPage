@@ -250,6 +250,7 @@ h3{
 
 #blog{
     background-color: #EFEFEF;
+    border-top: solid 3px #303030;
 }
 
 #articleCardContainer{
@@ -290,7 +291,9 @@ h3{
     border: black 1px solid;
     display: block;
     color: white;
+    text-decoration: none;
 }
+
 .btnTitleOneLine{
     margin: 20px auto 0 auto;
 
