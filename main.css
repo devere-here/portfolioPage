@@ -176,6 +176,15 @@ body{
     left: 17%;
     border: 10px solid #303030;
 }
+.reactNativeProjectPicture{
+    position: relative;
+    top: 9%;
+    left: 35%;
+    border: 10px solid #303030;
+    height: 250px;
+    width: 140px;
+
+}
 .info{
     float: right;
     height: 100%;
